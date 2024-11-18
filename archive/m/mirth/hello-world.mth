@@ -1,6 +1,0 @@
-module(hello-world)
-import(prelude)
-import(platform.posix)
-
-target-c99("hello-world.c",
-    "Hello, World!" str-print-ln!)
